@@ -9,7 +9,7 @@ import (
 
 type client struct {
 	conn     net.Conn
-	nick     string
+	nick     stringroom
 	room     *room
 	commands chan<- command
 }
