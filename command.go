@@ -1,4 +1,4 @@
-package chatroom
+package main
 
 type commandID int
 
